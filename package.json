@@ -1,0 +1,16 @@
+{
+  "name": "aquao-poc-notification-clients-node",
+  "version": "1.0.0",
+  "description": "POC notifications clients for Node.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./main.js",
+    "dev": "NODE_ENV=dev node ./main.js"
+  },
+  "author": "AquaO",
+  "license": "BSD Zero Clause License",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-rest-server": "^2.0.0"
+  }
+}
